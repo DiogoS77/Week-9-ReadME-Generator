@@ -27,6 +27,8 @@ ${data.description}
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [Demo](#demo)
+- [Features](#features)
 - [License](#license)
 - [Questions](#questions)
 
@@ -35,6 +37,9 @@ To install the necessary dependencies, run the following command:
 \`\`\`
 ${data.installation}
 \`\`\`
+
+## Features
+${data.feature ? `${data.feature}\n` : ''}
 
 ## Usage
 ${data.usage}
@@ -47,6 +52,9 @@ To run tests, use the following command:
 \`\`\`
 ${data.test}
 \`\`\`
+
+## Demo
+${data.demo ? `- [Demo](${data.demo})\n` : ''}
 
 ${licenseSection}
 
